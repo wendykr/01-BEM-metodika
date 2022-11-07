@@ -44,11 +44,19 @@ body {
 	margin: 0;
 }
 
-.article__recommend, .article__comment {
-	width: 10%;
+.article__icon {
+	width: 8%;
+	height: auto;
 }
 
 .inline-block {
 	display: inline-block;
+}
+
+.flex {
+	display: flex;
+	gap: 10px;
+	justify-content: start;
+	align-items: center;
 }
 
