@@ -2,9 +2,79 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
+:root {
+	--primary: #303233;
+}
+
+.border {
+	border: 1px solid #ff0000;
+}
+
+
 body {
 	font: 16px/1.5 sans-serif;
+	color: var(--primary);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+	background-color: #f5f5f5;
 }
 
 /* ------------------------------------------------ */
 
+.team {
+	width: 1000px;
+	min-height: 400px;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 7px #c9c9c9;
+	padding: 30px;
+}
+
+.team__player {
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #c9c9c9
+}
+
+.team--inverted  {
+	background-color: #303233;
+	color: #ffffff;
+	border-radius: 10px;
+	border: none;
+}
+
+.team__img {
+	width: 200px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.team__name {
+	size: 20px;
+	margin: 0;
+}
+
+.team__surname {
+	text-transform: uppercase;
+}
+
+.team__position {
+	font-style: italic;
+}
+
+.team__bio {
+	text-align: justify;
+}
+
+.team__icon {
+	width: 20px;
+}
+
+.flex {
+	display: flex;
+	gap: 10px;
+}

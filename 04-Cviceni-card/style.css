@@ -45,7 +45,7 @@ body {
 }
 
 .article__icon {
-	width: 8%;
+	width: 20%;
 	height: auto;
 }
 
@@ -59,4 +59,3 @@ body {
 	justify-content: start;
 	align-items: center;
 }
-
