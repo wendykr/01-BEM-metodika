@@ -45,7 +45,7 @@ body {
 }
 
 .article__icon {
-	width: 20%;
+	width: 1.5rem;
 	height: auto;
 }
 
@@ -58,4 +58,8 @@ body {
 	gap: 10px;
 	justify-content: start;
 	align-items: center;
+}
+
+.gap {
+	gap: 40px;
 }
