@@ -39,7 +39,7 @@ body {
 	border: 1px solid #c9c9c9
 }
 
-.team--inverted  {
+.team__player--inverted {
 	background-color: #303233;
 	color: #ffffff;
 	border-radius: 10px;
